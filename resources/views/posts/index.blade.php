@@ -1,6 +1,10 @@
 <h1>Blog Posts</h1>
  
 <a href="{{ route('posts.create') }}">Create New Post</a>
+
+<a href="{{ route('posts.reports.index') }}">
+    View Reports
+</a>
  
 @if(session('success'))
     <p style="color:green;">{{ session('success') }}</p>
